@@ -1,10 +1,10 @@
-# 🧵 Textile Sales Forecasting using SARIMA (1964–1980)
+#  Textile Sales Forecasting using SARIMA (1964–1980)
 
 > A time-series forecasting project using a simulated dataset to model monthly garment sales and predict future demand trends in the textile industry.
 
 ---
 
-## 📌 Overview
+##  Overview:
 
 This project involves the development of a **Seasonal ARIMA (SARIMA)** model to forecast **monthly sales of garments** from **January 1973 to December 1980** based on simulated historical sales data from **1964 to 1972**.
 
@@ -12,7 +12,7 @@ Due to data confidentiality during internship, a synthetic dataset was generated
 
 ---
 
-## 🎯 Objective
+##  Objective:
 
 - Simulate monthly garment sales data to mimic industry behavior  
 - Perform basic exploratory data analysis (EDA)  
@@ -22,7 +22,7 @@ Due to data confidentiality during internship, a synthetic dataset was generated
 
 ---
 
-## 📂 Project Structure
+##  Project Structure:
 
 ```bash
 ├── garment_monthly_sales_1964_1972.csv   # Simulated dataset
@@ -33,7 +33,7 @@ Due to data confidentiality during internship, a synthetic dataset was generated
 
 ---
 
-## 🧰 Tools & Technologies
+##  Tools & Technologies:
 
 | Tool        | Purpose                          |
 |-------------|----------------------------------|
@@ -45,7 +45,7 @@ Due to data confidentiality during internship, a synthetic dataset was generated
 
 ---
 
-## 📊 Dataset Description
+##  Dataset Description:
 
 - **Type**: Simulated monthly sales data  
 - **Range**: Jan 1964 – Dec 1972  
@@ -59,7 +59,7 @@ Due to data confidentiality during internship, a synthetic dataset was generated
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 
 - Checked for null values  
 - Visualized overall sales trend (line plot)   
@@ -67,7 +67,7 @@ Due to data confidentiality during internship, a synthetic dataset was generated
 
 ---
 
-## 🧠 Modeling Approach
+##  Modeling Approach:
 
 Used **SARIMA (Seasonal Auto-Regressive Integrated Moving Average)**:
 - Accounts for seasonality, trends, and lagged dependencies  
@@ -76,7 +76,7 @@ Used **SARIMA (Seasonal Auto-Regressive Integrated Moving Average)**:
 
 ---
 
-## 📈 Results
+##  Results:
 
 - Seasonal sales peaks were accurately captured  
 - Demand remained stable with slight upward trend  
@@ -84,7 +84,7 @@ Used **SARIMA (Seasonal Auto-Regressive Integrated Moving Average)**:
 
 ---
 
-## 📌 Business Inference
+##  Business Inference:
 
 - Helps in **inventory planning** by identifying high-demand months  
 - Supports **production optimization** aligned with seasonal demand  
@@ -93,7 +93,7 @@ Used **SARIMA (Seasonal Auto-Regressive Integrated Moving Average)**:
 
 ---
 
-## 📎 How to Use This Project
+##  How to Use This Project:
 
 1. Clone or download this repository  
 2. Run `sales_forecasting_textile.ipynb` in Google Colab or Jupyter Notebook  
@@ -102,7 +102,7 @@ Used **SARIMA (Seasonal Auto-Regressive Integrated Moving Average)**:
 
 ---
 
-## 👤 Author
+##  Author:
 
 **MAGHEILASHAA SELVAKUMAR**  
 B.Tech – Artificial Intelligence & Data Science  
@@ -112,13 +112,13 @@ GitHub: [https://github.com/lashaa06]
 
 ---
 
-## 📌 Acknowledgments
+## Acknowledgments;
 
 - Project guided by concepts learned during academic and internship training  
 - Dataset generated using OpenAI's ChatGPT for educational purposes  
 
 ---
 
-## 🏷️ Tags
+##  Tags:
 
 `Time Series` `SARIMA` `Sales Forecasting` `Textile Industry` `AI & DS` `Internship Project` `Python`
