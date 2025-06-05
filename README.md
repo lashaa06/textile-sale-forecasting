@@ -1,4 +1,4 @@
-#  Textile Sales Forecasting using SARIMA (1964–1980)
+#  Textile Sales Forecasting using SARIMA (1964–1975)
 
 > A time-series forecasting project using a simulated dataset to model monthly garment sales and predict future demand trends in the textile industry.
 
@@ -6,7 +6,7 @@
 
 ##  Overview:
 
-This project involves the development of a **Seasonal ARIMA (SARIMA)** model to forecast **monthly sales of garments** from **January 1973 to December 1980** based on simulated historical sales data from **1964 to 1972**.
+This project involves the development of a **Seasonal ARIMA (SARIMA)** model to forecast **monthly sales of garments** from **January 1973 to December 1975** based on simulated historical sales data from **1964 to 1972**.
 
 Due to data confidentiality during internship, a synthetic dataset was generated to closely reflect real-world seasonal trends, upward growth, and volatility seen in garment manufacturing sales cycles.
 
@@ -72,7 +72,7 @@ Due to data confidentiality during internship, a synthetic dataset was generated
 Used **SARIMA (Seasonal Auto-Regressive Integrated Moving Average)**:
 - Accounts for seasonality, trends, and lagged dependencies  
 - Trained on 9 years of monthly sales data  
-- Forecasted for 8 future years (1973–1980)  
+- Forecasted for 2 future years (1973–1975)  
 
 ---
 
@@ -96,7 +96,7 @@ Used **SARIMA (Seasonal Auto-Regressive Integrated Moving Average)**:
 ##  How to Use This Project:
 
 1. Clone or download this repository  
-2. Run `sales_forecasting_textile.ipynb` in Google Colab or Jupyter Notebook  
+2. Run `sales_forecasting_textile.ipynb` in Google Colab 
 3. Review the EDA, model fitting, and forecast sections  
 4. Modify the dataset or model parameters to explore further  
 
